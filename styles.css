@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
+    color: #777;
 }
 
 html, body {
@@ -14,6 +15,32 @@ html, body {
     margin: 0;
 }
 
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .8em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.main-nav {
+    padding: 0 5%;
+}
+
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
@@ -21,4 +48,23 @@ html, body {
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
 }
