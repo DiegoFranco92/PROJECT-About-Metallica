@@ -1,5 +1,5 @@
 @import url("http://fonts.googleapis.com/css?family=Raleway:300,400");
-
+@import url("http://fonts.googleapis.com/css?family=Metal+Mania");
 * {
     box-sizing: border-box;
     font-family: Raleway;
@@ -55,6 +55,7 @@ html, body {
     margin: 0;
     font-size: 4em;
     font-family: "Booter - Zero Zero";
+    color: white;
 }
 
 .band-name-large {
@@ -67,4 +68,48 @@ html, body {
 
 .container {
     max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: rgb(133, 133, 133);
+    color: whitesmoke;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
 }
